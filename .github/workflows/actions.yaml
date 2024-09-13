@@ -7,7 +7,7 @@ jobs:
   blow:
     runs-on: ubuntu-latest
     env:
-      WEBHOOK_URL: ${{ secrets.WebhookURL }}
+      WEBHOOK_URL: ${{ secrets.WEBHOOKURL }}
 
     steps:
       - name: Checkout
